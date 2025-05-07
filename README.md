@@ -4,6 +4,25 @@
 
 Evaluate and compare the performance of InfluxDB 2.7 (a time-series database) with Oracle SQL Database for storing and querying IoT telemetry data. This project is part of the University Module "Modern Database Systems" at TH Cologne.
 
+## Getting Started
+
+1. Create and activate a virtual environment. For example, with `venv`:
+   ```bash
+   python -m venv .venv
+   # Windows
+   .venv\\Scripts\\activate
+   # macOS/Linux
+   source .venv/bin/activate
+   ```
+2. Install the required libraries from the `requirements.txt` file:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Create a `.env` file in the project's root directory and add your InfluxDB token. You can use the `.env.example` file as a template (if available) or create a new file with the following content:
+   ```dotenv
+   INFLUXDB_TOKEN=YOUR_INFLUXDB_TOKEN_HERE
+   ```
+
 ## Dataset
 
 The dataset consists of environmental sensor telemetry data collected from multiple IoT devices. It contains temperature, humidity, gas, light, and motion readings, each with a timestamp and device ID. The data was sourced from Kaggle: [Environmental Sensor Data](https://www.kaggle.com/datasets/garystafford/environmental-sensor-data-132k). For details on the data structure, see the Kaggle page or the `data/iot_telemetry_data.csv` file in this repository.
