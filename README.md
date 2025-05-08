@@ -45,8 +45,9 @@ The dataset consists of environmental sensor telemetry data collected from multi
 - Import the same IoT telemetry dataset into both InfluxDB 2.7 and Oracle Database.
 - Perform typical time-series queries (e.g., aggregations, filtering by time/device, downsampling) like:
   1.  Aggregating the average humidity by device.
-  2.  Reading the highest measured temperature over all devices
-  3.  Filtering which device measured the most amount of motion
+  2.  Reading the highest measured temperature over all devices.
+  3.  Calculating the worst the worst air quality by aggregating “co”, “lpg” and “smoke”
+      per device. Sum of the % for each device.
 - Measure and compare query performance, data ingestion speed, and storage efficiency.
 - Summarize findings and provide recommendations for similar IoT analytics scenarios.
 
