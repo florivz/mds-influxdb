@@ -1,3 +1,3 @@
-influxdb-client
-pandas
-oracledb
+influxdb-client>=1.49.0
+pandas>=2.2.3
+oracledb>=3.1.1
