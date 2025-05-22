@@ -4,6 +4,27 @@
 
 Evaluate and compare the performance of InfluxDB 2.7 (a time-series database) with Oracle SQL Database for storing and querying IoT telemetry data. This project is part of the University Module "Modern Database Systems" at TH Cologne.
 
+# Setting Up the Databases
+
+1. Oracle DB
+
+Run and Install Oracle DB as Docker Image from [Docker Image ](container-registry.oracle.com/database/free:latest)
+
+2. InfluxDB
+
+Run and install the InfluxDB Image [Influx](influxdb:2.7)
+
+3. Create Database Instances
+
+InfluxDB: Create Bucket after logging into the UI on the localhost.
+OracleDB: Create an admin account when running the image. Setup the connection with DBeaver as you like.
+For Example:
+Click on create new connection and choose the Oracle DB. Then:
+host: 1523
+Database Name: FREE
+Role: Normal
+User: SYSTEM
+
 ## Getting Started
 
 1. Create and activate a virtual environment. For example, with `venv`:
