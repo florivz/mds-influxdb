@@ -1,2 +1,4 @@
-OracleDB query times: {'Average Humdity': 0.06653594970703125, 'Highest Temp': 0.02878117561340332, 'Worst Air': 0.06481313705444336, 'Avg Temp Humidity Ratio': 0.1090552806854248}
-InfluxDB query times: {'Average Humidity': 0.1473691463470459, 'Highest Temp': 0.01141977310180664, 'Worst Air': 1.0878689289093018, 'Avg Temp Humidity Ratio': 1.4332122802734375, 'Temp Change per Minute': 7.258764982223511, 'Hourly Temp-Hum': 2.060021162033081}
+InfluxDB query times: {'Average Humidity': 0.1758594512939453, 'Highest Temp': 0.021505355834960938, 'Worst Air': 1.3503856658935547, 'Avg Temp Humidity Ratio': 1.6044750213623047}
+OracleDB query times: {'Average Humidity': 0.08100390434265137, 'Highest Temp': 0.03255891799926758, 'Worst Air': 0.07190513610839844, 'Avg Temp Humidity Ratio': 0.09267711639404297}
+InfluxDB query times: {'Average Humidity': 0.16396498680114746, 'Highest Temp': 0.01749563217163086, 'Worst Air': 1.1976702213287354, 'Avg Temp Humidity Ratio': 1.7272686958312988}
+OracleDB query times: {'Average Humidity': 0.07648849487304688, 'Highest Temp': 0.029315471649169922, 'Worst Air': 0.07038450241088867, 'Avg Temp Humidity Ratio': 0.09484338760375977}
