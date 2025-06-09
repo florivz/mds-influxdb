@@ -2,3 +2,5 @@ InfluxDB query times: {'Average Humidity': 0.1758594512939453, 'Highest Temp': 0
 OracleDB query times: {'Average Humidity': 0.08100390434265137, 'Highest Temp': 0.03255891799926758, 'Worst Air': 0.07190513610839844, 'Avg Temp Humidity Ratio': 0.09267711639404297}
 InfluxDB query times: {'Average Humidity': 0.16396498680114746, 'Highest Temp': 0.01749563217163086, 'Worst Air': 1.1976702213287354, 'Avg Temp Humidity Ratio': 1.7272686958312988}
 OracleDB query times: {'Average Humidity': 0.07648849487304688, 'Highest Temp': 0.029315471649169922, 'Worst Air': 0.07038450241088867, 'Avg Temp Humidity Ratio': 0.09484338760375977}
+InfluxDB query times: {'Average Humidity': 0.18420648574829102, 'Highest Temp': 0.03932380676269531, 'Worst Air': 1.1522161960601807, 'Avg Temp Humidity Ratio': 1.5333383083343506}
+OracleDB query times: {'Average Humidity': 0.11021041870117188, 'Highest Temp': 0.046793222427368164, 'Worst Air': 0.10737466812133789, 'Avg Temp Humidity Ratio': 0.14356541633605957}

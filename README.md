@@ -69,9 +69,6 @@ The dataset consists of environmental sensor telemetry data collected from multi
   2.  Reading the highest measured temperature over all devices.
   3.  Calculating the worst the worst air quality by aggregating “co”, “lpg” and “smoke”
       per device. Sum of the % for each device.
-- Additional query variants in each analysis notebook show how to accomplish these tasks with more complex SQL and Flux expressions.
-- Measure and compare query performance, data ingestion speed, and storage efficiency.
-- Summarize findings and provide recommendations for similar IoT analytics scenarios.
 
 ## Technical Aspects
 
